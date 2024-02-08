@@ -1,13 +1,11 @@
-import Hero from "@/components/hero";
-import HomeImage from "../../public/images/home.jpg";
+"use client"
+
 import "./globals.css";
 
 export default function Home() {
   return (
-    <Hero
-      title="Professional Cloud Hosting"
-      image={HomeImage}
-      alt="car factory"
-    />
+    <div>
+      <h1>Home</h1>
+    </div>
   );
 }
